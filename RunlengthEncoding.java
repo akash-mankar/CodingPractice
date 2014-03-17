@@ -1,3 +1,6 @@
+ // Only counting the number of occurences here:
+// input: aaabbcdddda
+ // output: a4b2c1d4
 public String encode (String s) {
     HashMap<String, Integer> countMap =  new HashMap<String, Integer>();
     
@@ -9,14 +12,19 @@ public String encode (String s) {
     }
     
     String s1 =  new String();
-    for(EntrySet: e;  e )
+
+    for (Map.Entry<String, Integer> entry : countMap.entrySet())
     {
-        s1.append(e.key);
-        s1.append(e.value);
+        System.out.print(entry.getKey() + "/" + entry.getValue());
+        s1.append(entry.getKey());
+        s1.append(entry.getValue());
     }
     return s1;
 }
 
+// Different case
+// input: aaabbcdddda
+ //output: a3b2c1d4a1
 public String encode (String s) {
      boolean bSame = false;
      String s1 = new String();
