@@ -1,4 +1,19 @@
-public static Node leastCommonAncestor(Node root, Node a, Node b){
+public static Node LCAonlyBinaryTree(Node root, Node a, Node b){
+  if(root == null){
+    return null; // tree is null
+  }
+  if(root.equals(a) ||  root.equals(b)){
+    return root; // thats the lca
+  }
+  Node l =  LCAonlyBinaryTree(root.left, a, b);
+  Node r =  LCAonlyBinaryTree(root.right, a, b);
+  if(l != null && r != null){
+    return root;
+  }
+  
+  return l != null ? l : r;
+}
+public static Node leastCommonAncestorBST(Node root, Node a, Node b){
   // Tree is null
   if(root == null){
     return null;
@@ -26,10 +41,10 @@ public static Node leastCommonAncestor(Node root, Node a, Node b){
   }
   
   if( root.data > a.data && root.data > b.data){
-    return leastCommonAncestor(root.left, a, b);
+    return leastCommonAncestorBST(root.left, a, b);
   }
   if(root.data < a.data &7 root.data < b.data){
-    return leastCommonAncestor(root.right,  a, b);
+    return leastCommonAncestorBST(root.right,  a, b);
   }
   
 }
