@@ -1,0 +1,8 @@
+Good links to read or prepare for inteview:
+
+Algorithms:
+http://www.topcoder.com/tc?d1=tutorials&d2=alg_index&module=Static
+
+Codepad link to Square interview:
+https://coderpad.io/229424
+

@@ -1,0 +1,197 @@
+pIPELINING
+===========
+FETCH BRANCH PREDICTOR. -> MULTIPLE INSTRUCTIONS
+bRANCH tARGET bUFFER bHB
+ipc
+
+dECODE
+
+EXECUTE TOMASULO  rEORDER oUT OF ORDER REGISTER RENAMING.
+
+
+mEMORY 
+
+wb ->BYPASS FEEDBACK
+	REGISTER TO BE WRITTEN AND REGISTER TO BE READ YOU NEED THE RESULT
+	COMPARATOR.
+	tRUE. fEEDBACK ON.
+
+===================================================
+Tomasulo Alogrithm
+3 INst unit.
+    ADD
+    
+    RAW
+    WW
+    RR
+
+    Direct Mapped  address. Last bits are is offset 32 bytes. 5 offset. Kauns abyte utha na hain from that cache line
+    			   16KB -> 16KB / 4MB ->  total number of sets.   1MB 2^20 bytes / 16 2^10  =: 2^ 8 = 256 sets
+    			   index bits 8 bits. 
+
+    			   Branch predictor multiple instructions through cache.  16 KB
+
+    2 Way set associative
+                   same index location different tags
+                   Disadvantage comparison logic
+                   four different tags  hit rate better
+
+    Fully associative
+    				ANy number of tags. 0-256 256 differetnt tags
+    				hit rate is great.
+    				Comparison logic sucks
+
+   	RAW
+   	==>tomasulo
+
+   	rEAD AFTER rEAD
+
+   	wRUTE AAFTER READ. REANMING
+
+   	wAFTER WRITER
+--------------------------------------------------------------------------------------
+PID VIRTUAL TABLE
+0X0000 -> 0X5000       			0X0000
+aLL TRANSALTIONS IN VIRTUAL tABLE
+
+tlb
+mOST FREQUENTLY USED TRANSLATIONS.
+vpN ppN
+
+cACHE ALWAYS TAKES PHYSICAL ADDRESS.
+
+WHICH IS BETTER
+VIRTUALLY INDEXED PHYSICALLY TAGG
+cACHE VIRTUAL INDEX. -> TIME TAKEN. tlb TRANSLATION. 
+=============================================================================|
+wHERE IS DOES TRANSLATION.                                                   |
+MMU TRANSLATE vIRTUAL TABLE IS IN MAIN MEMORY.                               |
+=============================================================================|
+wHAT IS PAGE TABLE ENTRY?  VIRTUAL ADDRESS -> INDEX -> TO PHYSICAL mAPPING.  |
+=============================================================================|
+
+C++
+/oop CONCePTS
+VRITUAL FUNCTION.
+
+
+2ghZ. -> EXECUTIO
+
+c FUNCTION return :-> 
+
+RTL 
+simulator -> results ->  eventually RTL. 
+Automated Test Cases.
+One test case on simulator.
+
+Perl work on:
+
+CPU mode
+
+What is Netlist?
+C++ simulator -> verification
+
+RTL -> Synthesize through a tool.  C= a+b;  gate select. OR 
+Verilog core
+Gate level netlist.
+Layouts MosFETS -> symbolically.
+========================================
+What is FPGA?
+RTL -> final chip -> RTL how does it look on HW
+set of unlimited gates.  fuses.
+=======================================================
+What emulation? Large scale - multiple FPGAs
+================================================ burning code on FPGA is similar to emulation.
+
+VHDL
+
+System VErilog:  Test bench.
+================================================================================
+Thrashing: 
+
+Scan
+=================================
+
+OS questions
+too much milk problem.
+no milk. dont 
+
+VISIO: BALSAMIC:  Data Structure: Ms Paint 
+Dragging droping rectangles.
+MAximizing minimizing.
+
+Drag, drop  square,-> object -> 5 circles
+How would you store this? fetch from memory:  Hashtables.-> coordinates.
+
+HW timer, Set timer: number of seconds: Settimer(5) app1.
+Setimer(3) app2.
+-------> Linked list. Store: offset.
+1.  SetTimer 3.
+
+C function tow write elemnts sort linked list.
+
+
+================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

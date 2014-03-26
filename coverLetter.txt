@@ -1,0 +1,10 @@
+
+Hello,
+
+This is Akash, I'm a Masters student in the department of Computer Science at the University of Texas at Austin. I'd be graduating in May 2014 and I'm currently looking for a full time position. I came acrose the positinon Salesforce.com developer on KPCB careers. I worked at NVIDIA for 3 years before getting into my Masters. Last summer I interned at Intel. After having worked at industry giants like these, I decided to move my focus towards start up and smaller company environments. Last semester I got into web development and delivered university health services website, healthyhorns.utexas.edu completely mobile-responsive using twitter bootstrap. I also ended up delivering a start up prototype which was based on Low energy bluetooth technology introduced in iOS7. Last semester I also did some small scale projects in distributed systems. I feel my current skillset suits the requirements of this job very well and this is the kind of opportunity that I'm looking for.
+
+I hope you will consider me for this position. I look forward to meeting with you and discussing my qualifications in more detail.
+
+Sincerely,
+
+Akash Mankar

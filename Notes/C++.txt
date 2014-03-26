@@ -1,0 +1,83 @@
+C++
+====
+Virtual function
+Inheritance
+	
+public private protected 
+
+By default
+
+Difference between a class and struct.
+class has private by default. Struct has public by default.
+
+public inheritance,
+private inheritance,
+
+multiple inheritance.
+
+Types of constructor:
+default: copy: move: parameterized: initializer list:
+r value reference. in move : temporary object.
+x = y + z; if x is already created it will call assignment operator. 
+Otherwise, move constructor:
+
+Virtual destructor: jiska destructor hain wohi call hoga.
+
+Template: its a class/struct or a function.
+Generic. can be instantiated differently for different types. Similar concept in java is generics.
+Template specialization : write a specialized version for a specified type.
+
+Interface and abstract 
+Abstract: only one needs to be pure virtual. Can't be instantiated.
+Interface: all are pure virtual so that all of them can be implemented.
+
+Iterator: its a design pattern. Its an object that can be used to traverse a container.
+Forward, random access, backword, input iterator, output iterator.
+
+Composition c++. 
+Abstract class:  even if one function is 
+pure virtual function.
+vritual function  = 0. implementation. that class cannot be instantiated.
+Nor can a funtion take a type A. it can take a reference.
+
+A base B derived
+a = b. type b. function is still virtual.
+
+Singleton in c++
+class. private constructor:
+Static poitner of class type. private.
+Getinstance method. Static and public . Static method can access only static.
+className::getInstance.
+
+inherantce heirarchy hain toh destructor should be virtual.
+ If you call a destructor of derived. it will always call destructor of base too.
+ in vice versa case both destructors would be called only if A's destructor was virtual.
+
+Virtual Function Table:
+=======================
+Vptr in each class and each class has a VTable.
+http://www.learncpp.com/cpp-tutorial/125-the-virtual-table/
+
+
+NameMangling: after compilation: namespace+class+function Name + HEx.
+Same function Names: within same class. function overloading.
+C -> cannot resolve.
+
+Meta Programming:
+=================
+temprary objects: expression templates. Meta pogramming.
+
+valgrind: memory profiling tool. memory leak it tells.
+memory allocation calls. how many allocation. keep leaking memory.
+
+New:
+Types of new:  
+Operator syntax:  allocate + construct
+function syntax:  allocate
+placement new: :  construct
+
+Malloc:  makes a tree: based on the size of the memory block. jaisa size request hota hain waisa tree traverse karke nikalta hain
+Free blocks: heap has free blocks: is not a system call.
+Handles at user level.
+
+========================================================================================================================

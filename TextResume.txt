@@ -1,0 +1,66 @@
+AKASH MANKAR
+2810, Salado St, Apt 224
+Austin, TX 78705
+e-mail: akash.cs@utexas.edu
+mobile: 518 248 1895
+
+EDUCATION 
+University of Texas at Austin, Austin, TX August 2012 { May 2014 (Expected)
+Master of Science, Computer Science GPA: 3.6/4.0
+
+College of Engineering Pune, Maharashtra, India July 2005 { May 2009
+Bachelor of Technology, Information Technology GPA: 8.67/10.0 (Overall rank 5th)
+
+SKILLS 
+Languages: C, C++, Java, Perl, Python. 
+System Software: OOP, Android, Kernel mode driver development, Operating Systems, Device Drivers, Shell Programming, Awk, Make. 
+Other Skills: Map-Reduce, Android/iOS developement, Web Development, HTML5, Twitter Bootstrap.
+
+TOOLS 
+Eclipse, Visual Studio, IntelliJ IDEA, GIT, SVN, Perforce, WinDBG, VTUNE, x86 simulators, Jenkins, Hardware Emulators, FPGA setups, Doxygen, ShareLaTeX.
+
+MAJOR
+PROJECTS
+Distributed 1. PAXOS for Banking Transactions 2. Three Phase Atomic Commit 3. Eventual consistentcy using BAYOU protocol
+
+StartUp prototypes and Web Development:
+1. Beacon Monitor- a multiutility web+iOS app based on BLE (Low energy Bluetooth)
+2. Connexus - A photo streaming web + android app.
+3. Entire Redesign of University Health Services Website Healthyhorns.utexas.edu
+
+Hardware simuation: 
+Dead Block Prediction using MARSS x86 simulator from Princeton.
+
+Industry Projects: 3D surround gaming (NVIDIA), Hardware emulations(NVIDIA), VTUNE for Android (INTEL).
+
+PROFILES 
+Github: github.com/akash-mankar 
+StackOverflow: users/2352768/akash-mankar
+Linkedin: linkedin.com/pub/akash-mankar/19/493/a9a
+
+EXPERIENCE 
+INTEL Corporation, Summer Intern, Santa Clara, CA Summer 2013
+Worked on my summer internship at Intel Headquarters in the Performance Computing(TCAR) group. Work involved enhancing a part of the VTune Performance Computing
+Amplifier for Android OS on a x86 platform.
+
+NVIDIA Corporation, System Software Engineer, Pune, India June 2009 = June 2012
+ Worked in Display Driver Team for Windows. Work involved Kernel Mode Driver Development with respect to Nvidia GPUs. Completed Emulation and Bring-up s of many chips
+including FERMI and KEPLER GPU architecture.(GF104,GF106, GF108,GF110,GK104,GK107, GK110)
+ Was one of the founding team members of NVIDIA 3D surround technology.
+ Developed HDMI 1.4 Library for MACOS, LINUX and WINDOWS driver.
+
+The University of Texas at Austin, Graduate Assistant, Austin, TX Fall 2013
+ Worked on redesigning the ocial University Health Services website. Using Twitter Bootstrap, made it completely mobile responsive as well as scalable for future versions.
+ Launch Date: Jan 12th 2014. Website:Healthyhorns.utexas.edu
+
+The University of Texas at Austin, Graduate Teaching Assistant, Austin, TX Fall 2012
+ Worked as a Teaching Assistant for Programming for Performance under Prof. Keshav Pingali. Involved parallel programming paradigms like exploiting cache locality, Loop Unrolling,P threads, Single source shortest path algorithms.
+
+The University of Texas at Austin, Research Assistant, Austin, TX Spring 2012
+ Worked on Heterogeneous Computing Project under Prof. Don Fussell and PhD student
+Joao Barbosa. Work involved parallelizing Bzip2 Compression algorithm, using C++ STL, CUDA::Thrust Libraries for performance improvement.
+
+NVIDIA Corporation, Summer Intern, Pune, India August 2008 - May 2009
+ Worked from scratch on the multiple monitor setup page which is now part of current NVIDIA
+control panel. This involved working on the graphics driver code.
+ Designed a graph algorithm to calculate the position of displays while changing the topology.

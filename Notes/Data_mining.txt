@@ -1,0 +1,92 @@
+Data mining
+Data given - interpret 
+Buyer Sales Product Details.
+MAchine learning algorithms. Supervised. UNsupervised.
+Next days cost. predictive model. 
+electricity usage, Cant produce more, produce exact.
+Prediction Algorithms:
+specific value- electricity or specific class-or-type 
+Training set and validation set.
+Trained on some specific input data. will have noise.
+in validation, you ll check hows the performance. 
+
+Supervised Algorithms:
+parameters governments.  Electricity  proportional to Temprerature.
+Linear regression. Determine the constant values.
+IF the values don't match there is an error.
+That coyold be because of inputs.
+Somethings are undefined. some parameters are unknowns.
+Try to minimize the error on training set.
+
+Example:
+Salary / Age - Predict the performance.
+Normalize the input data.
+Sclaing centering operations.
+So that you predict correctly.
+Lambda: Error + lambda = 0  
+Vary lambda.
+Accuracy is not great. so some parameter is missing.
+
+Square Error: 
+Gradient Dissent. curve points. mminimize error. 
+Within Threshold ignore. only outliers  will affect the data. support vector machine.  SVM
+
+Data processing
+Analyze the data
+Define co variances
+Make scatter plots.
+Finding parameters
+	e.g. alcohol. we dont put accurate data age = 100/  Data is not corerect.
+	So we need find otu what kind of data can be used.
+	Centered features are more important. 
+	Model should be able to see that.
+PRinciple component analysis: figureing out centered parameter. Variance.
+==============================
+Still could be missing values.
+In Medical field.
+	some value missing. That measn something. Age, Blood PResssure.
+
+	replace missing values instead of getting rid of entire row.
+	replace with mean,. but dont do that. that would create a bias in the model.
+	Pressure Temperature.
+	relatuions ship. Replace using the relationship.
+
+60 90 =============> data. So dont take 75.
+Also ***feature selection****. Merge or split features.
+
+	y = f(x)
+		linear, X^2, X^3
+
+classification of  data:
+========================
+tshirts large small medium -> Discrete Variable
+nominal -> colros. no relationships.
+ordinal variable.  no quiatifiable relationship between them
+
+Use of this.
+how to quaitify error?
+cost small wrong medium ======= cost red wrong green high cost. Thats why classify the data.
+
+Decision Tree: -> to classify data. 
+regression Tree: -> try to different coefficients . Make regression tree.
+SVM: Support vector machine. MAximiing the boundary . Threshold is margin. for dinstinct classes.
+	for overlapping classes. 
+
+
+
+
+
+
+
+
+
+
+Unsupervised :  No constant values are there. some output values are there.
+Some inputs known. Give random values in case of unknowns. Calculated Error.
+
+
+
+
+
+
+
